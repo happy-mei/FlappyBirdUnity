@@ -1,0 +1,46 @@
+{
+    "version": 1,
+    "name": "BirdControls",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "960bf391-eceb-44e2-a324-1bba75235016",
+            "actions": [
+                {
+                    "name": "Flap",
+                    "type": "Button",
+                    "id": "de3f22a6-0791-4c6b-a2c0-8ca80014c7ff",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "61e48736-3935-410d-b2ba-c52dfbae832f",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "292b1634-e73a-4941-91fd-b1422eb87f23",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
